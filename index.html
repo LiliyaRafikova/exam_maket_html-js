@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-flex">
+                <div class="menuGamb">
+                    <img src="logo.png" alt="logotip" max-width="40" max-height="40">
+                    <div class="gamb">
+                        <button class="catalog"> <img src="меню_кнопка.png" alt=""></button>            
+                        <div class="links">
+                            <a href="" class="link-header">Home</a>
+                            <a href="" class="link-header">Destinations</a>
+                            <a href="" class="link-header">About</a>
+                            <a href="" class="link-header">Partner</a>
+                        </div>
+                    </div>
+                </div>               
+                <div class="nav-header">
+                    <!-- <nav class="link-head">
+                        <a href="" class="link-header">Home</a>
+                        <a href="" class="link-header">Destinations</a>
+                        <a href="" class="link-header">About</a>
+                        <a href="" class="link-header">Partner</a>
+                    </nav> -->
+                    <div class="button-header">
+                        <button class="button btnLogin">
+                            <p class="button-text">Login</p>
+                        </button>
+                        <button class="button">
+                            <p class="button-text btnReg">Register</p>
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- //модальное окно для авторизации -->
+        <div class="forms">
+            <form> 
+               <label for="">Авторизация</label> <br><br><br>
+               <div class="close-popup">
+                   <img src="MicrosoftTeams-image (1).png" alt="">
+               </div>      
+               <label for="fnam" id="nam">Логин: </label>
+               <input type="text" id="fnam">
+               <br> <br>
+               <label for="fnam" id="nam">Пароль: </label>
+               <input type="password" id="fnam">
+               <br> <br>                     
+               <input type="submit" value="Отправить" class="submitBtn">
+           </form>           
+       </div>
+<!-- модальное окно форма регистрации -->
+       <div class="forms2">
+        <form>  
+            <div class="close-popup">
+                <img src="MicrosoftTeams-image (1).png" alt="">
+            </div>      
+            <label for="fnam" id="nam">Имя: </label>
+            <input type="text" id="fnam">
+            <br> <br>
+            <label for="fnam" id="nam">Фамилия: </label>
+            <input type="text" id="fnam">
+            <br> <br>
+            <label for="gmail">Почта: </label>
+            <input type="email" id="gmail">
+            <br> <br>
+            <label for="">Телефон: </label>
+            <input type="text" id="tel">
+            <br> <br> 
+            <label for="">Логин: </label>
+            <input type="text" id="login">
+            <br> <br> 
+            <label for="">Пароль: </label>
+            <input type="password" id="password">
+            <br> <br>                     
+            <input type="submit" value="Отправить" class="submitBtn">                
+        </form>       
+        </div>
+    </header>
+
+
+    <main>
+        <div class="container">
+            <section>
+                <div class="banner">
+                    <div class="big">
+                        <img id="bigImg" src="baner1.jpg" alt="" width="100%" height="100%">
+                    </div>
+                    <div class="small">
+                        <a href="baner1.jpg"><img src="free-icon-dot-1828677.png" alt=""></a>
+                        <a href="baner2.jpg"><img src="free-icon-dot-1828677.png" alt=""></a>
+                        <a href="baner3.jpg"><img src="free-icon-dot-1828677.png" alt=""></a>
+                        <a href="baner4.jpg"><img src="free-icon-dot-1828677.png" alt=""></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </section>
+        <div class="container">
+            <div class="flex-box">
+                <div class="main-text">
+                    <h1 class="main-headding">Explore and Travel</h1>
+                    <h4 class="main-next">Holiday finder</h4>
+                    <div class="select">
+                        <select>
+                            <option>Location</option>
+                            <option>Moscow</option>
+                            <option>UFA</option>
+                            <option>Ekaterinburg</option>
+                        </select>
+                        <select>
+                            <option>Activity</option>
+                        </select>
+                        <select>
+                            <option>Grade</option>
+                        </select>
+                        <select>
+                            <option>Date</option>
+                        </select>
+                    </div>
+                    <button class="button">
+                        <p class="button-text">Explore</p>
+                    </button>
+
+                </div>
+                <div class="main-pic">
+                    <img class="main-pic-size" src="11111.png" alt="">
+                </div>
+            </div>
+
+            <div class="flex-box">
+                <div class="main-pic">
+                    <img class="main-pic-size" src="2222.png" alt="">
+                </div>
+                <div class="main-text2">
+                    <div class="h3">
+                        <p> A new way to explore the world </p>
+                    </div>
+                    <div class="h5">For decades travellers have reached for Lonely Planet books when looking to plan and
+                        execute their perfect
+                        trip, but now, they can also let Lonely Planet Experiences lead the way</div>
+
+                    <button class="button">
+                        <p class="button-text btnHiddenText">Learn more</p>
+                    </button>
+                   
+                    
+            </div>
+             <!-- скртый текст раскрывается по нажатию на кнопку -->
+            <div class="hidden_text"  style="display:none">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere nisi ipsa a iure, suscipit ipsum ad accusantium, rerum, et ea temporibus sit recusandae voluptates ratione molestias sapiente? Earum, asperiores Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex veniam repellat consequatur distinctio, similique asperiores alias ut porro expedita suscipit inventore enim eveniet quia mollitia minima odio a quo dolorem non pariatur! Dolorum quis libero mollitia placeat, labore nam voluptatem quibusdam consequatur delectus voluptates autem sint iste tenetur? Nihil, Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolorem distinctio aliquid mollitia, at praesentium sequi illum accusamus voluptatum? Culpa nemo amet quaerat? Non sapiente unde vero aliquam corporis voluptas ipsa in, recusandae itaque, nostrum autem fugit quam alias voluptate error dolor aspernatur reiciendis voluptatum quidem exercitationem sint inventore! Ducimus tenetur quos nulla, obcaecati earum fugit rerum vero hic nisi dolorum mollitia eos illo, nobis laborum, illum necessitatibus dignissimos praesentium? Eius reiciendis recusandae blanditiis vero? Aut inventore perspiciatis a rerum asperiores quis quidem reiciendis sapiente enim vel sunt deleniti nulla molestias nesciunt porro distinctio omnis, provident at repellendus harum repellat!</div>
+                </div>
+            <div class="pic-head">
+                <div class="h3">
+                    <p> Featured destinations </p>
+                </div>
+                <img src="view_all.png" alt="">
+
+            </div>
+            <div class="pic-gallery">
+                <img src="Raja ampat.png" alt="">
+                <img src="Fanjingshan.png" alt="">
+                <img src="Vevey.png" alt="">
+                <img src="Skadar.png" alt="">
+            </div>
+
+            <div class="flex-box">
+                <div class="main-text2">
+                    <div class="h3">
+                        <p> Guides by Thousand
+                            Sunny </p>
+                    </div>
+                    <div class="h5">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS
+                        and Android) is the ultimate resource before and during a trip.</div>
+
+                    <button class="button">
+                        <p class="button-text btnDownload">Download</p>
+                    </button>
+                </div>
+                
+                <div class="main-pic">
+                    <img class="main-pic-size" src="3333.png" alt="">
+                </div>
+            </div>
+            <div class="download">
+                <div class="down2"> 
+                    <div class="close-popup">
+                       <img src="MicrosoftTeams-image (1).png" alt="">
+                   </div>      
+                   <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium quia molestiae quidem perspiciatis esse enim quos, ullam, cupiditate harum animi nulla expedita nesciunt iste, consectetur blanditiis possimus? Voluptatibus ducimus quasi iste nihil unde autem libero esse quam sunt cupiditate? Sunt quidem nemo dolorum molestias ab labore similique ducimus error vel nulla, culpa tempora amet voluptas, itaque temporibus aspernatur! Quaerat fuga, enim quam quis odit, libero, possimus voluptatum atque saepe provident quisquam cumque suscipit veniam! Tenetur itaque harum ratione veniam. Veniam, iste? Maxime distinctio perferendis, nisi temporibus iusto recusandae excepturi quis commodi necessitatibus itaque autem soluta optio quibusdam voluptatum cupiditate.</label>
+                   
+               </div>           
+           </div>
+            <div class="pic-head">
+                <div class="h3">
+                    <p> Testimonials</p>
+                </div>
+            </div>
+
+            <div class="flex-box" style="margin-top:20px">
+                <div class="main-text2">
+                    <img src="stars.png" alt="">
+                    <blockquote>
+                        “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu,
+                        facilisis quis purus. Morbi blandit sit amet turpis nec”
+                    </blockquote>
+                    <div class="block">
+                        <div class="block1">Edward Newgate </div>
+                        <div class="block2">Founder Circle</div>
+                    </div>
+                </div>
+                <div class="main-pic">
+                    <img class="main-pic-size" src="photo.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="pic-head">
+                <div class="h3">
+                    <p> Trending stories </p>
+                </div>
+
+                <img src="view_all.png" alt="">
+            </div>
+            <div class="pic-gallery">
+                <div class="picture-description">
+                    <div>
+                        <img class="img-desc" src="image 12.png" alt="">
+                    </div>
+
+                    <div class="desc1">The many benefits of
+                        taking a healing holiday</div>
+                    <div class="desc2">‘Helaing holidays’ are on the rise
+                        tohelp maximise your health and happines...</div>
+                    <a href="" class="desc_link">Read more</a>
+                </div>
+                <div class="picture-description">
+                    <img class="img-desc" src="image 13.png" alt="">
+                    <div class="desc1">The best Kyoto restaurant
+                        to try Japanese food</div>
+                    <div class="desc2">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+                        to visit...</div>
+                    <a href="" class="desc_link">Read more</a>
+                </div>
+                <div class="picture-description">
+                    <img class="img-desc" src="image 14.png" alt="">
+                    <div class="desc1">Skip Chichen Itza and head
+                        to this remote Yucatan</div>
+                    <div class="desc2">It’s remote and challenging to get,
+                        but braving the jungle and exploring
+                        these ruins the...</div>
+                    <a href="" class="desc_link">Read more</a>
+                </div>
+                <div class="picture-description">
+                    <img class="img-desc" src="image 15.png" alt="">
+                    <div class="desc1">Surf’s up at these beginner
+                        spots around the world</div>
+                    <div class="desc2">If learning to surf has in on your to-
+                        do list for a while, the good news
+                        is: it’s never too late...</div>
+                    <a href="" class="desc_link">Read more</a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-box">
+                <div class="footer_text">
+                    <div class="footer-text1">
+
+                        <div class="footer-text11">
+                            <img src="logo.png" alt="" width="41" height="41">
+                            <div class="text-footer">Plan and book your perfect trip with
+                                expert advice, travel tips destination
+                                information from us</div>
+                            <div class="text-footer">
+                                &copy;Thousand Sunny. All rights reserved
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-text">
+                        <div class="text-footer" style="font-weight: bold; color:black;">Destinations</div>
+                        <div class="text-footer"> Africa</div>
+                        <div class="text-footer"> Antarctica</div>
+                        <div class="text-footer"> Asia</div>
+                        <div class="text-footer"> Europe</div>
+                        <div class="text-footer"> America</div>
+                    </div>
+                    <div class="footer-text">
+                        <div class="text-footer" style="font-weight: bold; color:black;">Shop</div>
+                        <div class="text-footer"> Destination Guides</div>
+                        <div class="text-footer"> Pictorial & Gifts</div>
+                        <div class="text-footer"> Special Offers</div>
+                        <div class="text-footer"> Delivery Times</div>
+                        <div class="text-footer"> FAQs</div>
+                    </div>
+                    <div class="footer-text">
+                        <div class="text-footer" style="font-weight: bold; color:black;"> Interests</div>
+                        <div class="text-footer"> Adventure Travel</div>
+                        <div class="text-footer"> Art And Culture</div>
+                        <div class="text-footer"> Wildlife And Nature</div>
+                        <div class="text-footer"> Family Holidays</div>
+                        <div class="text-footer"> Food And Drink</div>
+                    </div>
+
+                </div>
+
+                <div class="link_seti">
+                    <img src="Group.png" alt="">
+                    <img src="Group (1).png" alt="">
+                    <img src="Group (2).png" alt="">
+                    <img src="Group (3).png" alt="">
+                    <img src="Group (4).png"">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
